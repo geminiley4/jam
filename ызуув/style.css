@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+   font-family: 'Roboto Condensed', sans-serif;
+}
+/* body {
+    background-image: url(./ss.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.wrap {
+    display: flex;
+    justify-content: space-evenly;
+}
+.card {
+    background-color: rgb(131, 189, 169);
+    color: white;
+    padding: 27px;
+    border-radius: 7px;
+    width: 270px; 
+    margin-top: 150px;  
+    border: 2px solid rgb(151, 151, 151);
+
+    transition: all 0.8s;
+}
+.card:hover {
+    transform: scale(1.09);
+    transform: rotate(90deg);
+}
+.card2 {
+    background-color: rgb(131, 145, 189);
+}
+.card2:hover {
+    transform: rotate(180deg);
+}
+.card3 {
+    background-color: rgb(173, 131, 189);
+}
+.card3:hover{
+    transform: rotate(360deg);
+}
+p {
+    margin: 22px 0 19px;
+}
+.btn {
+    background-color: rgb(131, 189, 169);
+    color: white;
+    padding: 7px;   
+    border: 1px solid white;
+    border-radius: 19px;
+    margin-left: 130px;
+
+    transition: all 0.5s;
+}
+.btn:hover {
+    background-color: rgb(189, 131, 131);
+}
+.btn2 {
+    background-color: rgb(131, 145, 189);
+}
+.btn2:hover {
+    background-color: rgb(131, 189, 169);
+}
+.btn3 {
+    background-color: rgb(173, 131, 189);
+}
+.btn3:hover {
+    background-color: rgb(221, 221, 165);
+}
