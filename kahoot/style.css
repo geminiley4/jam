@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(226, 226, 226);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.quiz {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+.skip {
+    background-color: rgb(56, 56, 142);
+    color: white;
+    font-size: 50px;
+
+    display: block;
+    margin-left: auto;
+    font-weight: 600;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.timer {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.main {
+    width: 800px;
+    border-radius: 14px;
+    box-shadow: 10px 10px 26px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 26px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 26px 0px rgba(0, 0, 0, 0.75);
+}
+
+.answers {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: rgb(69, 69, 196);
+    color: white;
+    font-size: 35px;
+    text-decoration: none;
+    box-shadow: 10px 10px 26px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 26px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 26px 0px rgba(0, 0, 0, 0.75);
+    
+    display: block;
+    padding: 36px;
+    width: 100%;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+.btn2 {
+    background-color: rgb(208, 42, 42);
+}
+
+b {
+    font-size: 35px;
+    text-align: center;
+}
+.btn:hover {
+    opacity: 0.9;
+}
+.boxwin {
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.mainwin {
+    margin-left: 470px;
+    margin-right: 285px;
+    width: 800px;
+    height: 600px;
+    border-radius: 14px;
+}
+
+.boxfo {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 440px;
+}
+.mainfo {
+    margin-left: 150px;
+    width: 550px;
+    border-radius: 14px;
+}
+.textfo {
+    margin-left: 340px;
+    margin-bottom: 15px;
+    font-size: 26px;
+    text-decoration: none;
+    color: black;
+}
+body, fo.html {
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(226, 226, 226);
+    background-image: url(./pococado-бомба.gif);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.quizfo {
+    background-color: rgb(82, 27, 27);
+    padding: 15px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
