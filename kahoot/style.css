@@ -91,10 +91,10 @@ b {
 }
 
 .boxfo {
-    display: flex;
-    flex-direction: column;
+    display: block;
     margin-top: 80px;
-    margin-left: 440px;
+
+    margin: 0 auto;
 }
 .mainfo {
     margin-left: 150px;
