@@ -88,6 +88,149 @@ nav {
     margin-top: 35px;
 }
 
+.wrap2 {
+    display: flex;
+    gap: 65px;
+    margin-top: 75px;
+}
+
+.mini-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mini-info-text {
+    color: #242121;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+    width: 350px;
+    height: 68px;
+}
+
+.mini-title {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 0 auto;
+}
+
+.mini-title-text {
+    color: #242121;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+}
+
+
+.statistics {
+    display: flex;
+    gap: 250px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.statistics-waves {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.wave-stata {
+    display: flex;
+    gap: 10px;
+}
+
+.wave-stata-info {
+    color: #242121;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+}
+
+.wave-stata-text {
+    width: 43px;
+    height: 23px;
+    color: #242121;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+}
+
+.stata-text {
+    color: #242121;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+    width: 600px;
+    height: 53px;
+}
+
+.statistics-text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+
+.info-wave {
+    margin-bottom: 60px;
+}
+
+.info-wave-text {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.info-wave-p {
+    color: #242121;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+    width: 500px;
+}
+
+.big-title-info-wave {
+    color: #01353E;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+.info-wave-img {
+    width: 800px;
+    height: 600px;
+    margin-left: 100px;
+}
+.container2 {
+    max-width: 1200px;
+    width: 100%;
+
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+}
+.info-wave-p-2 {
+    margin-top: 40px;
+}
+
 
 
 
@@ -98,6 +241,7 @@ nav {
 
 
 @media (max-width:700px) {}
+
 @media (max-width:700px) {
     .wrap {
         flex-direction: column;
