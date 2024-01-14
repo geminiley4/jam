@@ -1,0 +1,229 @@
+body {
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+
+marquee {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 83.333% */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 30px 0;
+    background-color: #fff;
+}
+marquee span {
+    background: linear-gradient(45deg, #ff8a00, #e52e71, #a600ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fix-btn {
+    width: 150px;
+    height: 150px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    text-transform: uppercase;
+    z-index: 2;
+
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+
+    /* transition: all 0.5s; */
+}
+/* .fix-btn:hover {
+    width: 150px;
+    height: 150px;
+    background-color: #cccccc;
+    color: #000;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    text-transform: uppercase;
+
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+} */
+
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__burger {
+}
+.header__logo {
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+
+    transform: translateX(50px);
+}
+.header__icons {
+}
+.header__icon {
+}
+
+
+.hero {
+    background-image: url(./img/hero-img.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero__title {
+    color: #000;
+    text-align: center;
+    font-size: 118px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+
+
+.info {
+    background: linear-gradient(242deg, #FFF 0.5%, rgba(255, 255, 255, 0.00) 80.8%), rgba(234, 193, 191, 0.64);
+}
+.info__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.info__box {
+}
+.info__text {
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 68px; 
+}
+.info__btn {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
+    text-transform: uppercase;
+    border-radius: 32px;
+    background: #000;
+    padding: 15px 35px;
+    margin-top: 80px;
+}
+.info__img {
+    max-width: 800px;
+    width: 100%;
+}
+
+
+.save {
+    padding: 100px 0;
+}
+.save__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 270px;
+}
+.save__img {
+    background-image: url(./img/saveimg.png);
+    max-width: 540px;
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding-bottom: 32px;
+} 
+.save__img:hover .save__btn {
+    opacity: 1;
+}
+.save__btn {
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: uppercase;
+
+    opacity: 0;
+
+    border-radius: 32px;
+    background: rgba(255, 255, 255, 0.80);
+
+    padding: 15px 32px;
+
+    transition: all 0.35s;
+}
+.save__box {
+    max-width: 250px;
+    text-align: center;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.save__text {
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    line-height: 24px; 
+}
+.save__name {
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
