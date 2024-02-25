@@ -94,7 +94,7 @@ h3:hover {
 .about {
     margin-top: 130px;
     max-width: 1540px;
-    height: 570px;
+    max-height: 570px;
     background-color: #f6f8fc;
     display: flex;
     flex-direction: column;
@@ -215,7 +215,7 @@ h3:hover {
     gap: 15px;
 }
 .skills-box-item p {
-    color: #828282;
+    color: #475e69;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
