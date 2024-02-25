@@ -487,6 +487,9 @@ h3:hover {
    .home img {
     max-width: 460px;
    }
+   .contacts {
+    margin-top: 5px;
+   }
 }
 @media (max-width:460px ) {
    .home img {
@@ -495,10 +498,6 @@ h3:hover {
    .skills-box {
     gap: 10px;
     margin-top: 20px;
-   }
-   
-   .contacts {
-    margin-top: 0px;
    }
    .skills-box-item img{
     max-width: 100px;
