@@ -215,7 +215,7 @@ h3:hover {
     gap: 15px;
 }
 .skills-box-item p {
-    color: #475e69;
+    color: #89a6b5;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -366,7 +366,7 @@ h3:hover {
   
 
 
-  .conacts__rating {
+  .rating {
     display: flex;
     flex-direction: row-reverse;
     gap: 0.3rem;
