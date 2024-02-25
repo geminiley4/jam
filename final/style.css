@@ -57,6 +57,11 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+
+    transition: all 0.5s;
+}
+.home-text h1:hover {
+  color: #606485;
 }
 h3 {
     text-align: center;
@@ -65,6 +70,11 @@ h3 {
     font-style: normal;
     font-weight: 200;
     line-height: normal;
+
+    transition: all 0.49s;
+}
+h3:hover {
+  color: #969abe;
 }
 .home img {
     max-width: 600px;
@@ -99,6 +109,12 @@ h3 {
     line-height: normal;
     padding-top: 50px;
     text-align: center;
+
+    transition: all 0.5s;
+}
+.about h1:hover{
+  color: #606485;
+
 }
 .about p {
     color: #000000 ;
@@ -107,6 +123,11 @@ h3 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+
+    transition: all 0.35s;
+}
+.about p:hover {
+  color: #7e7e7e;
 }
 .about img {
     --s: 15px;  /* size of the frame */
@@ -130,6 +151,7 @@ h3 {
     outline: var(--b) solid var(--c);
     outline-offset: calc(var(--s)/-2);
     --_i: calc(100% - 2*var(--s));
+    transform: scale(1.2);
   }
   
   /* body {
@@ -157,15 +179,26 @@ h3 {
     font-weight: 600;
     line-height: normal;
     text-align: center;
+
+    transition: all 0.5s;
+}
+.skills h1:hover {
+  color: #606485;
 }
 .skills .skills-subtitle {
     color: #606485;
+    /* color: #7e7e7e; */
     font-size: 28px;
     font-style: normal;
     font-weight: 100;
     line-height: normal;
     text-align: center;
     margin-top: 20px;
+
+    transition: all 0.5s;
+}
+.skills .skills-subtitle:hover {
+  color: #969abe;
 }
 .skills-box {
     display: flex;
@@ -188,6 +221,11 @@ h3 {
     font-weight: 500;
     line-height: normal;
     text-align: center;
+
+    transition: all 0.35s;
+}
+.skills-box-item p:hover {
+  color: #404040;
 }
 .skills-box-item .logo {
     max-width: 190px;
@@ -229,6 +267,11 @@ h3 {
     font-weight: 600;
     line-height: normal;
     text-align: center;
+
+    transition: all 0.5s;
+}
+.contacts h1:hover {
+  color: #606485;
 }
 .contacts h2 {
     color: #000000;
@@ -238,6 +281,11 @@ h3 {
     line-height: normal;
     text-align: center;
     margin-top: 20px;
+
+    transition: all 0.35s;
+}
+.contacts h2:hover {
+  color: #1b206b;
 }
 .contacts .contacts-rating {
     color: #515151;
@@ -248,6 +296,11 @@ h3 {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 10px;
+
+    transition: all 0.5s;
+}
+.contacts .contacts-rating:hover {
+  color: #738b94;
 }
 .contacts__wrapper {
     display: flex;
@@ -280,7 +333,7 @@ h3 {
     text-align: center;
     margin: 0 auto;
     /* outline: 2px solid #2c9caf; */
-    outline: 2px solid  #1f2687;
+    outline: 2px solid  #535ab3;
     transform: scale(1.1);
   }
   
@@ -288,7 +341,7 @@ h3 {
     color: #ffffff;
     transform: scale(1.1);
     /* outline: 2px solid #70bdca; */
-    outline: 2px solid  #1c216bd8;
+    outline: 2px solid  #5f64a9d8;
     /* box-shadow: 4px 5px 17px -4px #268391; */
     box-shadow: 4px 5px 17px -4px  #1f2687;
   }
@@ -320,7 +373,7 @@ h3 {
     margin: 0 auto;
     margin-top: 10px;
     --stroke: #666;
-    --fill: #ffc73a;
+    --fill: #fed15f;
   }
   
   .rating input {
