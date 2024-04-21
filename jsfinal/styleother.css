@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #171726;
+    font-family: Poppins, sans-serif;
+}
+
+.container {
+    max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    padding: 30px 0;
+}
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo img {
+   width: 124px
+}
+.header__menu {
+    display: flex;
+    gap: 30px;
+    transition: all 0.5s;
+    
+
+    @media (max-width: 800px) {
+        /* display: none; */
+         
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 160px;
+        height: 230px;
+        background: linear-gradient(144.39deg, #ffffff -278.56%, #6d6d6db9 -78.47%, #11101dd0 91.61%);
+        
+        margin-top: 0.8in;
+        padding: 20px;
+        border-radius: 30px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        &.open {
+            right: 0;
+            /* margin-right: 5px; */
+        }
+    }
+    @media (max-width: 600px) {
+        width: 130px;
+        height: 190px;
+        gap: 10px;
+    }
+
+}
+.header__menu a {
+    color: #fff;
+    text-decoration: none;
+}
+.header__menu .header__menu-special {
+    color: #d1fffa;
+}
+.burger {
+    width: 25px;
+    display: none;
+
+    @media (max-width: 800px) {
+        display: block;
+        /* position: fixed;
+        right: 0;
+        margin-right: 15px; */
+    }
+}
+
+
+
+.hero {
+    padding: 34px 0;
+
+    @media (max-width: 790px) {
+        padding: 20px 0;
+    }
+}
+.hero__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.hero__wrapper h1 {
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+.hero__wrapper p {
+    font-size: 30px;
+    font-weight: 300;
+    color: #ffffffc8;
+    text-align: center;
+}
+.hero__wrapper h3 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #bcebf0c1;
+    text-align: center;
+}
+.hero__box {
+    display: flex;
+    gap: 10px;
+    margin: 0 auto;
+}
+.hero__box img {
+    max-width: 50px;
+    width: 100%;
+}
